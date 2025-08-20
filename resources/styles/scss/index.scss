@@ -1,3 +1,59 @@
 .carfooter-hook-footer{
     color: #666;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.carfooter-hook-footer hr{
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.carfooter-logo-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.carfooter-logo-footer img{
+    height: auto;
+    width: auto;
+}
+
+.carfooter-top-footer h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.carfooter-social-footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.carfooter-platform-solution-footer{
+    line-height: 2em;
+}
+
+.carfooter-platform-solution-footer ul{
+    margin-bottom: 30px;
+}
+.carfooter-platform-solution-footer h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.carfooter-description{
+    line-height: 1.6em;
+}
+
+.carfooter-regions-footer{
+    line-height: 3em;
 }
