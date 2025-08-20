@@ -35,6 +35,7 @@ class CarFooter extends Module
         return (
             parent::install()
             && $this->registerHook('displayFooter')
+            && $this->registerHook('actionFrontControllerSetMedia')
             && Configuration::updateValue('CARFOOTER_MODULE_NAME', 'Car footer')
         );
     }
@@ -44,6 +45,15 @@ class CarFooter extends Module
         return(
             parent::uninstall()
             && Configuration::deleteByName('CARFOOTER_MODULE_NAME')
+        );
+    }
+
+    public function hookActionFrontControllerSetMedia($params)
+    {
+        $this->context->controller->registerStylesheet(
+            'style-car-footer',
+            'modules/'.$this->name.'/dist/css/style.css',
+            ['media'=>'all', 'priority' => 150]
         );
     }
 
