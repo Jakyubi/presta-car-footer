@@ -11,7 +11,13 @@
     </div>
 
     <div class="carfooter-social-footer">
-    
+        <a href="https://www.facebook.com">
+            <div class="carfooter-facebook">facebook-icon</div>
+        </a>
+
+        <a href="https://www.linkedin.com.com">
+            <div class="carfooter-linkedin">linkedin-icon</div>
+        </a>
     </div>
 
     <div class="carfooter-platform-solution-footer">
@@ -51,8 +57,13 @@
     </div><hr>
 
     <div class="carfooter-legal-footer">
-        <p>Links</p>
-        <p>Links</p>
+        <a href="https://www.google.com">
+        <p>Terms of use</p>
+        </a>
+
+        <a href="https://www.google.com">
+        <p>Privacy policy</p>
+        </a>
 
     </div><hr>
 </div>
