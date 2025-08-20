@@ -1,34 +1,34 @@
 <div class="carfooter-hook-footer">
     <div class="carfooter-logo-footer">
-        <img src="{$link->getManufacturerImageLink(1)}" alt="logo"/>
+        <img src="{$link->getManufacturerImageLink(1)}" class="carfooter-logo-image" alt="logo"/>
 
-        <h2>CAR SCRAP YARD</h2>
+        <div class="carfooter-logo-name">CAR SCRAP YARD</div>
     </div>
     
     <div class="carfooter-top-footer">
-        <h2>CAR SCRAP YARD</h2>
+        <div class="carfooter-top-name">CAR SCRAP YARD</div>
         <p class="carfooter-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nulla leo, ac eleifend lorem ultrices vitae. Cras eget est nec ligula porttitor efficitur. Nullam tortor orci, malesuada at magna ullamcorper, commodo fringilla lectus.</p>
     </div>
 
     <div class="carfooter-social-footer">
         <a href="https://www.facebook.com">
-            <div class="carfooter-facebook">facebook-icon</div>
+            <img src="" class="carfooter-facebook" alt="facebook-icon" />
         </a>
 
         <a href="https://www.linkedin.com.com">
-            <div class="carfooter-linkedin">linkedin-icon</div>
+            <img src="" class="carfooter-linkedin" alt="linkedin-icon"/>
         </a>
     </div>
 
     <div class="carfooter-platform-solution-footer">
         <ul>
             <li>
-                <h2>Platform</h2>
+                <div class="carfooter-text-header">Platform</div>
             </li>
 
             <li>
-                <a href="reverse_elt">
-                    Reverse ELT
+                <a href="reverse_etl">
+                    Reverse ETL
                 </a>
             </li>
 
@@ -59,7 +59,7 @@
 
         <ul>
             <li>
-                <h2>Solutions</h2>
+                <div class="carfooter-text-header">Solutions</div>
             </li>
             
             <li>
@@ -101,11 +101,20 @@
     </div>
 
     <div class="carfooter-opinion-footer">
-        <div>Opinions about seller</div>
+        <div class="carfooter-opinion-percent">99.6%</div>
+        <div class="carfooter-opinion-description">buyers recommended this seller</div>
+        <div class="carfooter-opinion-seller">carscrapyard Super Seller</div>
+        <div class="carfooter-opinion-stats">consistent with the description 4.9/5</div>
+        <div class="carfooter-opinion-stats">Buyer service 4.9/5</div>
+        <div class="carfooter-opinion-description">All opinions are confirmed by purchase</div>
+
     </div><hr>
 
     <div class="carfooter-description-footer">
-        <h2>Legal vehicle scrapping - <br>Certified Car Scrap Yard</h2>
+        <div class="carfooter-text-header">
+        <span>Legal vehicle scrapping -</span>
+        <span>Certified Car Scrap Yard</span>
+        </div>
         <p class="carfooter-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nulla leo, ac eleifend lorem ultrices vitae. Cras eget est nec ligula porttitor efficitur. Nullam tortor orci, malesuada at magna ullamcorper, commodo fringilla lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nulla leo, ac eleifend lorem ultrices vitae. Cras eget est nec ligula porttitor efficitur. Nullam tortor orci, malesuada at magna ullamcorper, commodo fringilla lectus.</p>
     </div><hr>
 

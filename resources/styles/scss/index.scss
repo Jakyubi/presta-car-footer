@@ -1,59 +1,111 @@
 .carfooter-hook-footer{
-    color: #666;
+    background-color: rgb(5, 8, 17);
+    color: #fff;
     padding:20px;
     display:flex;
     flex-direction: column;
     gap: 20px;
+    border: 2px solid red;
 }
-
 .carfooter-hook-footer hr{
     border: none;
     height: 1px;
-    background-color: #ccc;
+    background-color: #303030;
     width: 100%;
     margin: 5px 0;
 }
 
+//carfooter-logo-footer
 .carfooter-logo-footer{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
-.carfooter-logo-footer img{
+.carfooter-logo-image{
     height: auto;
     width: auto;
 }
+.carfooter-logo-name{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
 
-.carfooter-top-footer h2{
+//carfooter-top-footer
+.carfooter-top-name{
+    font-size: 1.2rem;
+    font-weight: 500;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
+//carfooter-social-footer
 .carfooter-social-footer{
-    margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     gap: 10px;
 }
 
+//cafrooter-platform-solution-footer
 .carfooter-platform-solution-footer{
     line-height: 2em;
+    color: #fff
 }
-
 .carfooter-platform-solution-footer ul{
     margin-bottom: 30px;
 }
-.carfooter-platform-solution-footer h2{
-    margin-top: 15px;
-    margin-bottom: 15px;
-
+.carfooter-platform-solution-footer a{
+    color: #fff !important;
+    font-weight: 300;
+}
+.carfooter-text-header{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.carfooter-text-header span{
+    display:block;
+    line-height: 1.7rem;
 }
 
+//carfooter-opinion-footer
+.carfooter-opinion-percent{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.carfooter-opinion-seller{
+    font-size: 1rem;
+
+}
+.carfooter-opinion-stats{
+
+    font-size: 1rem;
+}
+
+
+//carfooter-description-footer
 .carfooter-description{
     line-height: 1.6em;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: #fff;
 }
 
+//carfooter-regions-footer
 .carfooter-regions-footer{
     line-height: 3em;
+}
+
+.carfooter-regions-footer li{
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.carfooter-legal-footer p{
+    color: #fff !important; 
+
 }
