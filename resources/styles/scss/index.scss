@@ -2,6 +2,7 @@
     background-color: rgb(5, 8, 17);
 }
 
+//carfooter main div
 .carfooter-hook-footer{
     background-color: rgb(5, 8, 17);
     color: #fff;
@@ -27,7 +28,7 @@
     gap: 20px;
 }
 
-//carfooter-logo-footer
+//carfooter logo
 .carfooter-logo-footer{
     display: flex;
     align-items: center;
@@ -42,14 +43,14 @@
     font-weight: 400;
 }
 
-//carfooter-top-footer
+//carfooter top
 .carfooter-top-name{
     font-size: 1.4rem;
     font-weight: 400;
     padding: 20px 0;
 }
 
-//carfooter-social-footer
+//carfooter socials
 .carfooter-social-footer{
     padding: 10px 10px;
     display: flex;
@@ -59,6 +60,8 @@
     filter: invert(1);
     margin-right: 20px;
 }
+
+//carfooter safe payment
 .carfooter-safe-payment{
     padding: 10px 10px;
     display: flex;
@@ -72,7 +75,7 @@
     display: inline-block;
 }
 
-//cafrooter-platform-solution-footer
+//cafrooter platform and solution list
 .carfooter-platform-solution-footer{
     line-height: 2em;
     color: #fff;
@@ -85,6 +88,8 @@
     font-size: 1rem;
     font-weight: 300;
 }
+
+//carfooter header
 .carfooter-text-header{
     margin-top: 15px;
     margin-bottom: 10px;
@@ -96,8 +101,15 @@
     display:block;
     line-height: 1.7rem;
 }
+.carfooter-info-header{
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;  
+}
 
-//carfooter-opinion-footer
+//carfooter opinion
 .carfooter-opinion-percent{
     line-height: 4rem;
     font-size: 2.2rem;
@@ -134,7 +146,7 @@
 }
 
 
-//carfooter-description-footer
+//carfooter description text
 .carfooter-description{
     line-height: 1.6em;
     letter-spacing: 1px;
@@ -142,14 +154,8 @@
     font-weight: 100;
     color: #fff;
 }
-.carfooter-info-header{
-    line-height: 1.6em;
-    letter-spacing: 1px;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #fff;  
-}
-//carfooter-regions-footer
+
+//carfooter regions
 .carfooter-regions-footer{
     line-height: 3em;
 
@@ -161,36 +167,45 @@
     color: #fff;
 }
 
-//carfooter-legal-footer
+//carfooter legal
 .carfooter-legal-footer p{
     color: #fff !important; 
     font-size: 1.2rem;
-
 }
 
-.carfooter-safe-payment.desktop-only{
+
+//desktop and mobile only
+.carfooter-safe-payment.desktop-only,
+.carfooter-info.desktop-only{
     display: none;
 }
 
-.carfooter-safe-payment.mobile-only{
+.carfooter-safe-payment.mobile-only,
+.carfooter-info.mobile-only{
     display: block;
 }
+
+//desktop style
 @media (min-width: 1024px){
     .carfooter-hook-footer{
         padding: 0;
-    }
-
-    .carfooter-safe-payment.desktop-only{
-        display: block;
-    }
-
-    .carfooter-safe-payment.mobile-only{
-        display: none;
-    }
-    .carfooter-hook-footer {
         gap: 40px;
     }
 
+    .carfooter-safe-payment.desktop-only,
+    .carfooter-info.desktop-only{
+        display: block;
+    }
+    .carfooter-safe-payment.mobile-only,
+    .carfooter-info.mobile-only{
+        display: none;
+    }
+
+    .carfooter-top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .carfooter-main-row {
         display: flex;
         gap: 40px;
@@ -202,20 +217,19 @@
         gap: 20px;
         flex: 1.2;
     }
-
     .carfooter-middle-column {
         display: flex;
         flex-direction: column;
         gap: 20px;
         flex: 1;
     }
-
     .carfooter-right-column {
         display: flex;
         flex-direction: column;
         gap: 20px;
         flex: 1;
     }
+
     .carfooter-description-footer{
         order: 2;
         flex: 1;
@@ -224,29 +238,21 @@
         order: 1;
         flex: 1;
     }
-
+    .carfooter-regions-footer ul{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 150px;
+    }
     .carfooter-social-footer{
         display: flex;
         flex-direction: row;
         gap: 10px;
     }
-
     .carfooter-safe-payment{
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 10px;
-    }
-    .carfooter-top-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .carfooter-regions-footer ul{
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 150px;
     }
 
     .carfooter-legal-footer{
@@ -255,7 +261,6 @@
         align-items: center;
         column-gap: 30px;
     }
-
     .carfooter-platform-solution-footer{
         display: flex;
         gap: 50px;
