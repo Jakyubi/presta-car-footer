@@ -5,7 +5,8 @@
     display:flex;
     flex-direction: column;
     gap: 20px;
-    border: 2px solid red;
+    font-family: 'Segoe UI', 'Helvetica Neue, Arial, sans-serif';
+    letter-spacing: 1px;
 }
 .carfooter-hook-footer hr{
     border: none;
@@ -26,14 +27,14 @@
     width: auto;
 }
 .carfooter-logo-name{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
 //carfooter-top-footer
 .carfooter-top-name{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.4rem;
+    font-weight: 400;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -44,11 +45,25 @@
     display: flex;
     gap: 10px;
 }
+.carfooter-icon-invert{
+    filter: invert(1);
+    margin-right: 20px;
+}
+.carfooter-safe-payment{
+    display: flex;
+    gap: 10px;
+}
+.carfooter-green-text{
+    color: green; 
+    font-weight: 400;
+    align-items: center;
+    font-size: 1.2rem;
+}
 
 //cafrooter-platform-solution-footer
 .carfooter-platform-solution-footer{
     line-height: 2em;
-    color: #fff
+    color: #fff;
 }
 .carfooter-platform-solution-footer ul{
     margin-bottom: 30px;
@@ -61,7 +76,7 @@
     margin-top: 5px;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .carfooter-text-header span{
     display:block;
@@ -70,17 +85,38 @@
 
 //carfooter-opinion-footer
 .carfooter-opinion-percent{
-    font-size: 2rem;
+    line-height: 4rem;
+    font-size: 2.2rem;
     font-weight: 300;
 }
-
 .carfooter-opinion-seller{
-    font-size: 1rem;
-
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .carfooter-opinion-stats{
-
-    font-size: 1rem;
+    font-size: 1.2rem;
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.carfooter-opinion-big{
+    font-size: 1.9rem;
+}
+.carfooter-opinion-rating{
+    display: flex;
+}
+.carfooter-opinion-big-wrapper{
+    display: inline-flex;
+    align-items: center; 
+    gap: 4px; 
+    margin-bottom: 20px;
+}
+.carfooter-opinion-name{
+    font-weight: 600;
+    margin-right: 20px;
 }
 
 
@@ -88,7 +124,7 @@
 .carfooter-description{
     line-height: 1.6em;
     letter-spacing: 1px;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 100;
     color: #fff;
 }
@@ -97,15 +133,16 @@
 .carfooter-regions-footer{
     line-height: 3em;
 }
-
 .carfooter-regions-footer li{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     letter-spacing: 1px;
     font-weight: 300;
     color: #fff;
 }
 
+//carfooter-legal-footer
 .carfooter-legal-footer p{
     color: #fff !important; 
+    font-size: 1.2rem;
 
 }

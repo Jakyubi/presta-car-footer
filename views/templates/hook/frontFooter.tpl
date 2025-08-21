@@ -12,12 +12,21 @@
 
     <div class="carfooter-social-footer">
         <a href="https://www.facebook.com">
-            <img src="" class="carfooter-facebook" alt="facebook-icon" />
+            <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/facebook.svg"
+            class="carfooter-icon-invert" width="30" height="30" alt="Facebook">
         </a>
 
-        <a href="https://www.linkedin.com.com">
-            <img src="" class="carfooter-linkedin" alt="linkedin-icon"/>
+        <a href="https://www.linkedin.com">
+            <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/linkedin.svg" 
+            class="carfooter-icon-invert" width="30" height="30" alt="LinkedIn" class="icon-linkedin">
         </a>
+    </div>
+
+    <div class="carfooter-safe-payment">
+        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/lock.svg" 
+        class="carfooter-icon-invert" width="30" height="30" alt="Lock" class="icon-lock">
+        <div class="carfooter-green-text">Safe payment</div>
+    
     </div>
 
     <div class="carfooter-platform-solution-footer">
@@ -101,12 +110,34 @@
     </div>
 
     <div class="carfooter-opinion-footer">
-        <div class="carfooter-opinion-percent">99.6%</div>
-        <div class="carfooter-opinion-description">buyers recommended this seller</div>
-        <div class="carfooter-opinion-seller">carscrapyard Super Seller</div>
-        <div class="carfooter-opinion-stats">consistent with the description 4.9/5</div>
-        <div class="carfooter-opinion-stats">Buyer service 4.9/5</div>
-        <div class="carfooter-opinion-description">All opinions are confirmed by purchase</div>
+        <div class="carfooter-opinion-percent">99,6%</div>
+        
+        <div class="carfooter-description">buyers recommended this seller</div>
+        
+        <div class="carfooter-opinion-seller"><span class="carfooter-opinion-name">carscrapyard</span> 
+        <span class="carfooter-opinion-superseller">Super Seller</span></div>
+        
+        <div class="carfooter-opinion-rating">
+            <div class="carfooter-opinion-stats"><span class="carfooter-description">CONSISTENT WITH THE DESCRIPTION</span> 
+            <br>
+                <div class="carfooter-opinion-big-wrapper">
+                    <span class="carfooter-opinion-big">4,9</span><span>/5
+                    <img src="https://www.svgrepo.com/show/302554/star.svg" alt="star" width="12" height="12">
+                    </span>
+                </div>
+            </div>
+            
+            <div class="carfooter-opinion-stats"><span class="carfooter-description">BUYER SERVCE</span> 
+            <br>
+                <div class="carfooter-opinion-big-wrapper">
+                    <span class="carfooter-opinion-big">4,9</span><span>/5
+                    <img src="https://www.svgrepo.com/show/302554/star.svg" alt="star" width="12" height="12">
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="carfooter-description">All opinions are confirmed by purchase</div>
 
     </div><hr>
 
