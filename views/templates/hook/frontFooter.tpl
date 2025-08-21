@@ -1,17 +1,49 @@
 <div class="carfooter-hook-footer">
+    <div class="carfooter-top-row">
+        <div class="carfooter-logo-footer">
+            <img src="{$link->getManufacturerImageLink(1)}" class="carfooter-logo-image" alt="logo"/>
+
+            <div class="carfooter-logo-name">CAR SCRAP YARD</div>
+        </div>
+    
+        <div class="carfooter-safe-payment desktop-only">
+            <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/lock.svg" 
+            class="carfooter-icon-invert" width="30" height="30" alt="Lock" class="icon-lock">
+            <div class="carfooter-green-text">Safe payment</div>
+        </div>
+    </div>
 
 
     <div class="carfooter-main-row">
         <div class="carfooter-left-column">
-            <div class="carfooter-logo-footer">
-                <img src="{$link->getManufacturerImageLink(1)}" class="carfooter-logo-image" alt="logo"/>
 
-                <div class="carfooter-logo-name">CAR SCRAP YARD</div>
-            </div>
             <div class="carfooter-top-footer">
                 <div class="carfooter-top-name">CAR SCRAP YARD</div>
                 <p class="carfooter-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nulla leo, ac eleifend lorem ultrices vitae. Cras eget est nec ligula porttitor efficitur. Nullam tortor orci, malesuada at magna ullamcorper, commodo fringilla lectus.</p>
             </div>
+
+            <div class="carfooter-info desktop-only">
+                <div>
+                    <span class="carfooter-info-header">Email:</span>
+                    <span class="carfooter-description">email@email.com</span>
+                </div>
+                <div>
+                    <span class="carfooter-info-header">Phone:</span>
+                    <span class="carfooter-description">000-000-000</span>
+                </div>
+                <br>    
+                <div>
+                    <span class="carfooter-info-header">Address:</span>
+                    <span class="carfooter-description">Street 00, City</span>
+                </div>
+                <br>
+                <div>
+                    <span class="carfooter-info-header">Work hours:</span><br>
+                    <span class="carfooter-description">monday-friday: 0:00-0:00, saturday: 0:00-0:00</span>
+                </div>
+                <br>
+            </div>
+
             <div class="carfooter-social-footer">
                 <a href="https://www.facebook.com">
                     <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/facebook.svg"
@@ -23,7 +55,10 @@
                     class="carfooter-icon-invert icon-linkedin" width="30" height="30" alt="LinkedIn">
                 </a>
             </div>
-            <div class="carfooter-safe-payment">
+
+
+
+            <div class="carfooter-safe-payment mobile-only">
                 <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/lock.svg" 
                 class="carfooter-icon-invert" width="30" height="30" alt="Lock" class="icon-lock">
                 <div class="carfooter-green-text">Safe payment</div>
@@ -150,26 +185,30 @@
 
     <hr>
 
-
-    <div class="carfooter-description-footer">
-        <div class="carfooter-text-header">
-        <span>Legal vehicle scrapping -</span>
-        <span>Certified Car Scrap Yard</span>
+    <div class="carfooter-bottom-row">
+        <div class="carfooter-description-footer">
+            <div class="carfooter-text-header">
+            <span>Legal vehicle scrapping -</span>
+            <span>Certified Car Scrap Yard</span>
+            </div>
+            <p class="carfooter-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nulla leo, ac eleifend lorem ultrices vitae. Cras eget est nec ligula porttitor efficitur. Nullam tortor orci, malesuada at magna ullamcorper, commodo fringilla lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nulla leo, ac eleifend lorem ultrices vitae. Cras eget est nec ligula porttitor efficitur. Nullam tortor orci, malesuada at magna ullamcorper, commodo fringilla lectus.</p>
+        <hr>
         </div>
-        <p class="carfooter-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nulla leo, ac eleifend lorem ultrices vitae. Cras eget est nec ligula porttitor efficitur. Nullam tortor orci, malesuada at magna ullamcorper, commodo fringilla lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique nulla leo, ac eleifend lorem ultrices vitae. Cras eget est nec ligula porttitor efficitur. Nullam tortor orci, malesuada at magna ullamcorper, commodo fringilla lectus.</p>
-    </div><hr>
 
-    <div class="carfooter-regions-footer">
-        <ul>
-            <li>mazowieckie voivodeship</li>
-            <li>łódzkie voivodeship</li>
-            <li>świętokrzyskie voivodeship</li>
-            <li>lubuskie voivodeship</li>
-            <li>śląskie voivodeship</li>
-            <li>małopolskie voivodeship</li>
-            <li>podkarpackie voivodeship</li>
-        </ul>
-    </div><hr>
+
+        <div class="carfooter-regions-footer">
+            <ul>
+                <li>mazowieckie voivodeship</li>
+                <li>łódzkie voivodeship</li>
+                <li>świętokrzyskie voivodeship</li>
+                <li>lubuskie voivodeship</li>
+                <li>śląskie voivodeship</li>
+                <li>małopolskie voivodeship</li>
+                <li>podkarpackie voivodeship</li>
+            </ul>
+        <hr>
+            </div>
+    </div>
 
     <div class="carfooter-legal-footer">
         <a href="https://www.google.com">
