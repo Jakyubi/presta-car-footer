@@ -55,7 +55,7 @@
 
             <div class="carfooter-safe-payment mobile-only">
                 <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/lock.svg" 
-                class="carfooter-icon-invert" width="30" height="30" alt="Lock" class="icon-lock">
+                class="carfooter-icon-invert icon-lock" width="30" height="30" alt="Lock">
                 <div class="carfooter-green-text">Safe payment</div>
             </div>
         </div>
