@@ -7,11 +7,11 @@ $bp-desktop: 768px;
 //carfooter main div
 .carfooter-hook-footer {
   color: #fff;
-  padding: 1.25rem 1.25rem;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  font-family: "Segoe UI", "Helvetica Neue, Arial, sans-serif";
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   letter-spacing: 1px;
 
   hr {
@@ -40,32 +40,22 @@ $bp-desktop: 768px;
   align-items: center;
   gap: 0.625rem;
 }
-.carfooter-logo-image {
-  height: auto;
-  width: auto;
-}
+
 .carfooter-logo-name {
   font-size: 1.25rem;
-  font-weight: 400;
 }
 
 //carfooter top
 .carfooter-top-name {
   font-size: 1.5rem;
-  font-weight: 400;
   padding: 1.25rem 0;
 }
 
 //carfooter socials
 .carfooter-social-footer {
-  padding: 0.625rem 0.625rem;
+  padding: 0.625rem;
   display: flex;
   gap: 0.625rem;
-  @media (min-width: $bp-desktop) {
-    display: flex;
-    flex-direction: row;
-    gap: 0.625rem;
-  }
 }
 .carfooter-icon-invert {
   filter: invert(1);
@@ -74,19 +64,13 @@ $bp-desktop: 768px;
 
 //carfooter safe payment
 .carfooter-safe-payment {
-  padding: 0.625rem 0.625rem;
+  padding: 0.625rem;
   display: flex;
   gap: 0.625rem;
-  @media (min-width: $bp-desktop) {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.625rem;
-  }
+  align-items: center;
 }
 .carfooter-green-text {
   color: green;
-  font-weight: 400;
   align-items: center;
   font-size: 1.25rem;
   display: inline-block;
@@ -95,14 +79,12 @@ $bp-desktop: 768px;
 //cafrooter platform and solution list
 .carfooter-platform-solution-footer {
   line-height: 2rem;
-  color: #fff;
 
   ul {
     margin-bottom: 1.875rem;
   }
   li a {
-    color: #fff !important;
-    font-size: 1rem;
+    color: #fff;
     font-weight: 300;
   }
 
@@ -116,9 +98,7 @@ $bp-desktop: 768px;
 .carfooter-text-header {
   margin-top: 1rem;
   margin-bottom: 0.625rem;
-  font-weight: 400;
   font-size: 1.5rem;
-  color: #fff;
 
   span {
     display: block;
@@ -128,9 +108,7 @@ $bp-desktop: 768px;
 .carfooter-info-header {
   line-height: 1.625rem;
   letter-spacing: 1px;
-  font-size: 1rem;
   font-weight: 600;
-  color: #fff;
 }
 
 //carfooter opinion
@@ -173,7 +151,6 @@ $bp-desktop: 768px;
 .carfooter-description {
   line-height: 1.625rem;
   letter-spacing: 1px;
-  font-size: 1rem;
   font-weight: 100;
   color: #fff;
 }
@@ -183,10 +160,8 @@ $bp-desktop: 768px;
   line-height: 3rem;
 
   li {
-    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 300;
-    color: #fff;
   }
 
   @media (min-width: $bp-desktop) {
@@ -203,8 +178,8 @@ $bp-desktop: 768px;
 
 //carfooter legal
 .carfooter-legal-footer {
-  p {
-    color: #fff !important;
+  a p {
+    color: #fff;
     font-size: 1.25rem;
   }
   @media (min-width: $bp-desktop) {
