@@ -105,10 +105,17 @@ $bp-desktop: 1024px;
     line-height: 1.75rem;
   }
 }
+
+.carfooter-margin {
+  margin-bottom: 1rem;
+}
 .carfooter-info-header {
   line-height: 1.625rem;
   letter-spacing: 1px;
   font-weight: 600;
+}
+.work-hours {
+  display: block;
 }
 
 //carfooter opinion

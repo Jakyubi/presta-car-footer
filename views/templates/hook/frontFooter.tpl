@@ -25,21 +25,18 @@
                     <span class="carfooter-info-header">Email:</span>
                     <span class="carfooter-description">email@email.com</span>
                 </div>
-                <div>
+                <div class="carfooter-margin">
                     <span class="carfooter-info-header">Phone:</span>
                     <span class="carfooter-description">000-000-000</span>
                 </div>
-                <br>    
-                <div>
+                <div class="carfooter-margin">
                     <span class="carfooter-info-header">Address:</span>
                     <span class="carfooter-description">Street 00, City</span>
                 </div>
-                <br>
-                <div>
-                    <span class="carfooter-info-header">Work hours:</span><br>
-                    <span class="carfooter-description">monday-friday: 0:00-0:00, saturday: 0:00-0:00</span>
+                <div class="carfooter-margin">
+                    <span class="carfooter-info-header">Work hours:</span>
+                    <span class="carfooter-description work-hours">monday-friday: 0:00-0:00, saturday: 0:00-0:00</span>
                 </div>
-                <br>
             </div>
 
             <div class="carfooter-social-footer">
@@ -150,8 +147,7 @@
                 <span class="carfooter-opinion-superseller">Super Seller</span></div>
                 
                 <div class="carfooter-opinion-rating">
-                    <div class="carfooter-opinion-stats"><span class="carfooter-description">CONSISTENT WITH THE DESCRIPTION</span> 
-                    <br>
+                    <div class="carfooter-opinion-stats"><span class="carfooter-description carfooter-margin">CONSISTENT WITH THE DESCRIPTION</span> 
                         <div class="carfooter-opinion-big-wrapper">
                             <span class="carfooter-opinion-big">4,9</span><span>/5
                             <img src="https://www.svgrepo.com/show/302554/star.svg" alt="star" width="12" height="12">
@@ -159,8 +155,7 @@
                         </div>
                     </div>
                     
-                    <div class="carfooter-opinion-stats"><span class="carfooter-description">BUYER SERVCE</span> 
-                    <br>
+                    <div class="carfooter-opinion-stats"><span class="carfooter-description carfooter-margin">BUYER SERVCE</span> 
                         <div class="carfooter-opinion-big-wrapper">
                             <span class="carfooter-opinion-big">4,9</span><span>/5
                             <img src="https://www.svgrepo.com/show/302554/star.svg" alt="star" width="12" height="12">
