@@ -7,10 +7,10 @@ $bp-desktop: 768px;
 //carfooter main div
 .carfooter-hook-footer {
   color: #fff;
-  padding: 20px 20px;
+  padding: 1.25rem 1.25rem;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   font-family: "Segoe UI", "Helvetica Neue, Arial, sans-serif";
   letter-spacing: 1px;
 
@@ -19,86 +19,86 @@ $bp-desktop: 768px;
     height: 1px;
     background-color: #303030;
     width: 100%;
-    margin: 10px 0;
+    margin: 0.625rem 0;
   }
 
   @media (min-width: $bp-desktop) {
     padding: 0;
-    gap: 40px;
+    gap: 2.5rem;
   }
 }
 
 .carfooter-bottom-row {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 //carfooter logo
 .carfooter-logo-footer {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 .carfooter-logo-image {
   height: auto;
   width: auto;
 }
 .carfooter-logo-name {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
 //carfooter top
 .carfooter-top-name {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 //carfooter socials
 .carfooter-social-footer {
-  padding: 10px 10px;
+  padding: 0.625rem 0.625rem;
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
   @media (min-width: $bp-desktop) {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 0.625rem;
   }
 }
 .carfooter-icon-invert {
   filter: invert(1);
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 //carfooter safe payment
 .carfooter-safe-payment {
-  padding: 10px 10px;
+  padding: 0.625rem 0.625rem;
   display: flex;
-  gap: 10px;
+  gap: 0.625rem;
   @media (min-width: $bp-desktop) {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
   }
 }
 .carfooter-green-text {
   color: green;
   font-weight: 400;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   display: inline-block;
 }
 
 //cafrooter platform and solution list
 .carfooter-platform-solution-footer {
-  line-height: 2em;
+  line-height: 2rem;
   color: #fff;
 
   ul {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
   li a {
     color: #fff !important;
@@ -108,25 +108,25 @@ $bp-desktop: 768px;
 
   @media (min-width: $bp-desktop) {
     display: flex;
-    gap: 50px;
+    gap: 3rem;
   }
 }
 
 //carfooter header
 .carfooter-text-header {
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin-top: 1rem;
+  margin-bottom: 0.625rem;
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #fff;
 
   span {
     display: block;
-    line-height: 1.7rem;
+    line-height: 1.75rem;
   }
 }
 .carfooter-info-header {
-  line-height: 1.6em;
+  line-height: 1.625rem;
   letter-spacing: 1px;
   font-size: 1rem;
   font-weight: 600;
@@ -136,24 +136,24 @@ $bp-desktop: 768px;
 //carfooter opinion
 .carfooter-opinion-percent {
   line-height: 4rem;
-  font-size: 2.2rem;
+  font-size: 2.25rem;
   font-weight: 300;
 }
 .carfooter-opinion-seller {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   line-height: 2.5rem;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
 }
 .carfooter-opinion-stats {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .carfooter-opinion-big {
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 .carfooter-opinion-rating {
   display: flex;
@@ -161,17 +161,17 @@ $bp-desktop: 768px;
 .carfooter-opinion-big-wrapper {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  margin-bottom: 20px;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
 }
 .carfooter-opinion-name {
   font-weight: 600;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 //carfooter description text
 .carfooter-description {
-  line-height: 1.6em;
+  line-height: 1.625rem;
   letter-spacing: 1px;
   font-size: 1rem;
   font-weight: 100;
@@ -180,10 +180,10 @@ $bp-desktop: 768px;
 
 //carfooter regions
 .carfooter-regions-footer {
-  line-height: 3em;
+  line-height: 3rem;
 
   li {
-    font-size: 0.9rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 300;
     color: #fff;
@@ -196,7 +196,7 @@ $bp-desktop: 768px;
     ul {
       display: flex;
       flex-wrap: wrap;
-      column-gap: 150px;
+      column-gap: 9rem;
     }
   }
 }
@@ -205,13 +205,13 @@ $bp-desktop: 768px;
 .carfooter-legal-footer {
   p {
     color: #fff !important;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
   @media (min-width: $bp-desktop) {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    column-gap: 30px;
+    column-gap: 1.875rem;
   }
 }
 
@@ -246,7 +246,7 @@ $bp-desktop: 768px;
 .carfooter-main-row {
   @media (min-width: $bp-desktop) {
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
     justify-content: space-between;
   }
 }
@@ -255,7 +255,7 @@ $bp-desktop: 768px;
   @media (min-width: $bp-desktop) {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     flex: 1.2;
   }
 }
@@ -264,7 +264,7 @@ $bp-desktop: 768px;
   @media (min-width: $bp-desktop) {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     flex: 1;
   }
 }
@@ -273,7 +273,7 @@ $bp-desktop: 768px;
   @media (min-width: $bp-desktop) {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.25rem;
     flex: 1;
   }
 }
