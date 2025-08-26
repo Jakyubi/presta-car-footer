@@ -61,7 +61,4 @@ class CarFooter extends Module
     {
         return $this->display(__FILE__, 'views/templates/hook/frontFooter.tpl');
     }
-
-
-
 }
