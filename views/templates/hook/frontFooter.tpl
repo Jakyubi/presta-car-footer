@@ -2,7 +2,6 @@
     <div class="carfooter-top-row">
         <div class="carfooter-logo-footer">
             <img src="{$link->getManufacturerImageLink(1)}" class="carfooter-logo-image" alt="logo"/>
-
             <div class="carfooter-logo-name">CAR SCRAP YARD</div>
         </div>
     
@@ -12,7 +11,6 @@
             <div class="carfooter-green-text">Safe payment</div>
         </div>
     </div>
-
 
     <div class="carfooter-main-row">
         <div class="carfooter-left-column">
@@ -49,20 +47,16 @@
                     <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/facebook.svg"
                     class="carfooter-icon-invert" width="30" height="30" alt="Facebook">
                 </a>
-
                 <a href="https://www.linkedin.com">
                     <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/linkedin.svg" 
                     class="carfooter-icon-invert icon-linkedin" width="30" height="30" alt="LinkedIn">
                 </a>
             </div>
 
-
-
             <div class="carfooter-safe-payment mobile-only">
                 <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/lock.svg" 
                 class="carfooter-icon-invert" width="30" height="30" alt="Lock" class="icon-lock">
                 <div class="carfooter-green-text">Safe payment</div>
-            
             </div>
         </div>
         
@@ -151,9 +145,7 @@
         <div class="carfooter-right-column">
             <div class="carfooter-opinion-footer">
                 <div class="carfooter-opinion-percent">99,6%</div>
-                
                 <div class="carfooter-description">buyers recommended this seller</div>
-                
                 <div class="carfooter-opinion-seller"><span class="carfooter-opinion-name">carscrapyard</span> 
                 <span class="carfooter-opinion-superseller">Super Seller</span></div>
                 
@@ -178,11 +170,9 @@
                 </div>
                 
                 <div class="carfooter-description">All opinions are confirmed by purchase</div>
-
             </div>
         </div>
     </div>
-
     <hr>
 
     <div class="carfooter-bottom-row">
@@ -195,7 +185,6 @@
         <hr>
         </div>
 
-
         <div class="carfooter-regions-footer">
             <ul>
                 <li>mazowieckie voivodeship</li>
@@ -206,8 +195,8 @@
                 <li>małopolskie voivodeship</li>
                 <li>podkarpackie voivodeship</li>
             </ul>
-        <hr>
-            </div>
+            <hr>
+        </div>
     </div>
 
     <div class="carfooter-legal-footer">
@@ -218,6 +207,6 @@
         <a href="https://www.google.com">
         <p>Privacy policy</p>
         </a>
-
-    </div><hr>
+    </div>
+    <hr>
 </div>
