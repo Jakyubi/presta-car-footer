@@ -1,0 +1,15 @@
+@use "variables";
+@use "mixins";
+
+.carfooter-legal-footer {
+  a p {
+    color: variables.$color-white;
+    font-size: variables.$fs-md;
+  }
+  @include mixins.bp-min(variables.$bp-desktop) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 1.875rem;
+  }
+}

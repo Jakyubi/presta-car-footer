@@ -1,0 +1,52 @@
+@use "variables";
+@use "mixins";
+
+.carfooter-left-column {
+  @include mixins.bp-min(variables.$bp-desktop) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    flex: 1.2;
+  }
+}
+
+.carfooter-top-name {
+  font-size: variables.$fs-lg;
+  padding: 1.25rem 0;
+}
+
+.carfooter-margin {
+  margin-bottom: 1rem;
+}
+
+.carfooter-info-header {
+  line-height: 1.625rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.work-hours {
+  display: block;
+}
+
+.carfooter-info {
+  &.desktop-only {
+    display: none;
+    @include mixins.desktop-only(variables.$bp-desktop);
+  }
+  &.mobile-only {
+    display: block;
+    @include mixins.mobile-only(variables.$bp-desktop);
+  }
+}
+
+.carfooter-social-footer {
+  padding: 0.625rem;
+  display: flex;
+  gap: 0.625rem;
+}
+
+.carfooter-icon-invert {
+  filter: invert(1);
+  margin-right: 1.25rem;
+}

@@ -1,0 +1,46 @@
+@use "variables";
+@use "mixins";
+
+.carfooter-right-column {
+  @include mixins.bp-min(variables.$bp-desktop) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    flex: 1;
+  }
+}
+
+.carfooter-opinion-percent {
+  line-height: 4rem;
+  font-size: variables.$fs-xxl;
+  font-weight: 300;
+}
+.carfooter-opinion-seller {
+  font-size: variables.$fs-md;
+  line-height: 2.5rem;
+  margin-top: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+.carfooter-opinion-stats {
+  font-size: variables.$fs-md;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.carfooter-opinion-big {
+  font-size: variables.$fs-xl;
+}
+.carfooter-opinion-rating {
+  display: flex;
+}
+.carfooter-opinion-big-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+.carfooter-opinion-name {
+  font-weight: 600;
+  margin-right: 1.25rem;
+}

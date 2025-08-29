@@ -1,0 +1,44 @@
+@use "variables";
+@use "mixins";
+
+.carfooter-top-row {
+  @include mixins.bp-min(variables.$bp-desktop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.carfooter-logo-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.carfooter-logo-name {
+  font-size: variables.$fs-md;
+}
+
+.carfooter-safe-payment {
+  padding: 0.625rem;
+  display: flex;
+  gap: 0.625rem;
+  align-items: center;
+
+  &.desktop-only {
+    display: none;
+    @include mixins.desktop-only(variables.$bp-desktop);
+  }
+
+  &.mobile-only {
+    display: block;
+    @include mixins.mobile-only(variables.$bp-desktop);
+  }
+}
+
+.carfooter-green-text {
+  color: variables.$color-green;
+  align-items: center;
+  font-size: variables.$fs-sm;
+  display: inline-block;
+}
