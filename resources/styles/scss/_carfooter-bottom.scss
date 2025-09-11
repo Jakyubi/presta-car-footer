@@ -1,0 +1,37 @@
+@use "variables";
+@use "mixins";
+
+.carfooter-bottom-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.carfooter-description-footer {
+  @include mixins.bp-min(variables.$bp-desktop) {
+    order: 2;
+    flex: 1;
+  }
+}
+
+.carfooter-regions-footer {
+  line-height: 3rem;
+
+  li {
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  @include mixins.bp-min(variables.$bp-desktop) {
+    order: 1;
+    flex: 1;
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    li {
+      width: 25%;
+    }
+  }
+}

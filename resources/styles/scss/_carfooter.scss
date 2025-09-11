@@ -1,0 +1,44 @@
+@use "variables";
+@use "mixins";
+
+.footer-container {
+  background-color: variables.$color-bg-footer;
+}
+
+.carfooter-hook-footer {
+  color: variables.$color-white;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 1px;
+
+  hr {
+    border: none;
+    height: 1px;
+    background-color: variables.$color-hr;
+    width: 100%;
+    margin: 0.625rem 0;
+  }
+
+  @include mixins.bp-min(variables.$bp-desktop) {
+    padding: 0;
+    gap: 2.5rem;
+  }
+}
+
+.carfooter-main-row {
+  @include mixins.bp-min(variables.$bp-desktop) {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+  }
+}
+
+.carfooter-description {
+  line-height: 1.625rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: variables.$color-white;
+}

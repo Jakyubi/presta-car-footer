@@ -1,0 +1,39 @@
+@use "variables";
+@use "mixins";
+
+.carfooter-middle-column {
+  @include mixins.bp-min(variables.$bp-desktop) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    flex: 1;
+  }
+}
+
+.carfooter-platform-solution-footer {
+  line-height: 2rem;
+
+  ul {
+    margin-bottom: 1.875rem;
+  }
+  li a {
+    color: variables.$color-white;
+    font-weight: 300;
+  }
+
+  @include mixins.bp-min(variables.$bp-desktop) {
+    display: flex;
+    gap: 3rem;
+  }
+}
+
+.carfooter-text-header {
+  margin-top: 1rem;
+  margin-bottom: 0.625rem;
+  font-size: variables.$fs-lg;
+
+  span {
+    display: block;
+    line-height: 1.75rem;
+  }
+}
